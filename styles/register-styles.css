@@ -1,0 +1,47 @@
+/* -- REGISTER STYLES -- */
+
+form {
+  margin: auto;
+  width: 40%;
+}
+
+form div {
+  margin: 0.5rem;
+}
+
+form label {
+  display: block;
+  margin: 0.3rem 0;
+}
+
+form input {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color:ghostwhite;
+  color: grey;
+}
+
+form button {
+  background-color: steelblue;
+  color: white;
+  font-size: large;
+  padding: 0.5rem;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: lightsteelblue; /* Green */
+  color: steelblue;
+}
+
+@media (max-width: 830px) {
+  form {
+    width: 90%;
+  }
+}
+

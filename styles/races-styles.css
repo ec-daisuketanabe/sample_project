@@ -1,0 +1,50 @@
+/* -- RACES STYLES -- */
+
+main table {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+main table caption {
+  font-size: 1.5rem;
+  font-style: none;
+  margin: 0.5rem;
+  text-decoration: underline;
+}
+
+main table th {
+  border: 1px solid;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+main table td {
+  border: 1px solid;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+main table thead {
+  background: steelblue;
+  color: white;
+}
+
+main table tbody tr {
+  background: lightsteelblue;
+}
+
+main table tbody tr:nth-last-of-type(odd) {
+  background: whitesmoke;
+}
+
+main p {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  main table {
+    table-layout: fixed;
+    width: 90%;
+  }
+}
